@@ -3,7 +3,6 @@ package com.example;
 import javax.persistence.*;
 
 @Entity
-@Table
 public class Employee {
 
     @Id
