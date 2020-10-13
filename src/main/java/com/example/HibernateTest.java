@@ -28,7 +28,5 @@ public class HibernateTest {
         for (Employee next : resultList) {
             System.out.println("next employee: " + next);
         }
-
     }
-
 }

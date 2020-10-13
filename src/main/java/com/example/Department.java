@@ -1,9 +1,8 @@
 package com.example;
 
+import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
-
-import javax.persistence.*;
 
 @Entity
 @Table
@@ -17,7 +16,7 @@ public class Department {
     private String name;
 
     @OneToMany(mappedBy="department",cascade=CascadeType.PERSIST)
-    private List<Employee> employees = new ArrayList<Employee>();
+    private List<Employee> employees = new ArrayList<>();
 
     public Department() {
         super();
@@ -42,5 +41,14 @@ public class Department {
     }
     public void setEmployees(List<Employee> employees) {
         this.employees = employees;
+    }
+
+    @Override
+    public String toString() {
+        return "Department{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", employees=" + employees +
+                '}';
     }
 }

@@ -56,5 +56,4 @@ public class Employee {
         return "Employee [id=" + id + ", name=" + name + ", department="
                 + department.getName() + "]";
     }
-
 }
