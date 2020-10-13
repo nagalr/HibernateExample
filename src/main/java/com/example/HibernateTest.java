@@ -24,9 +24,11 @@ public class HibernateTest {
         Query q = session.createQuery("From Employee ");
 
         List<Employee> resultList = q.list();
-        System.out.println("num of employess: " + resultList.size());
+        System.out.println("num of employees: " + resultList.size());
         for (Employee next : resultList) {
             System.out.println("next employee: " + next);
         }
+        // do not know if needed (my addition)
+        //session.close();
     }
 }
