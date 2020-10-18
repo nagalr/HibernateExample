@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f370e068-6f5d-4c8e-a80c-3dc9dbc3ab32" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/HibernateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/HibernateTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,6 +153,7 @@
       <workItem from="1602744713926" duration="23004000" />
       <workItem from="1602833250623" duration="18020000" />
       <workItem from="1603001262292" duration="645000" />
+      <workItem from="1603010344469" duration="751000" />
     </task>
     <task id="LOCAL-00001" summary="add .gitignore file˚">
       <created>1602573725898</created>
@@ -231,6 +230,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
