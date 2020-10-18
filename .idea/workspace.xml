@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f370e068-6f5d-4c8e-a80c-3dc9dbc3ab32" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -154,6 +155,7 @@
       <workItem from="1602833250623" duration="18020000" />
       <workItem from="1603001262292" duration="645000" />
       <workItem from="1603010344469" duration="751000" />
+      <workItem from="1603014836126" duration="333000" />
     </task>
     <task id="LOCAL-00001" summary="add .gitignore file˚">
       <created>1602573725898</created>
@@ -225,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602600593827</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add workspace.xml">
+      <created>1603014974191</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1603014974191</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +245,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -254,7 +265,8 @@
     <MESSAGE value="blank space to test the commit" />
     <MESSAGE value="finalize before closing the sample" />
     <MESSAGE value="blank space to check the commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="blank space to check the commit" />
+    <MESSAGE value="add workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="add workspace.xml" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -275,10 +287,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="954" y="90" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1602857119517" />
-    <state x="396" y="23" key="CommitChangelistDialog2" timestamp="1602600593662">
+    <state x="396" y="23" key="CommitChangelistDialog2" timestamp="1603014973989">
       <screen x="38" y="23" width="1402" height="877" />
     </state>
-    <state x="396" y="23" key="CommitChangelistDialog2/38.23.1402.877@38.23.1402.877" timestamp="1602600593662" />
+    <state x="396" y="23" key="CommitChangelistDialog2/38.23.1402.877@38.23.1402.877" timestamp="1603014973989" />
     <state width="250" height="195" key="DatabaseViewActions_Filter" timestamp="1602613619620">
       <screen x="38" y="23" width="1402" height="877" />
     </state>
@@ -336,10 +348,10 @@
     </state>
     <state x="362" y="21" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1603010264840" />
     <state x="390" y="43" width="997" height="797" key="SettingsEditor/38.23.1402.877@38.23.1402.877" timestamp="1602687216354" />
-    <state x="502" y="201" key="Vcs.Push.Dialog.v2" timestamp="1602600594424">
+    <state x="502" y="201" key="Vcs.Push.Dialog.v2" timestamp="1603014976190">
       <screen x="38" y="23" width="1402" height="877" />
     </state>
-    <state x="502" y="201" key="Vcs.Push.Dialog.v2/38.23.1402.877@38.23.1402.877" timestamp="1602600594424" />
+    <state x="502" y="201" key="Vcs.Push.Dialog.v2/38.23.1402.877@38.23.1402.877" timestamp="1603014976190" />
     <state x="879" y="275" width="477" height="347" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1602768467500">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
