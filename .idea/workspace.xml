@@ -22,8 +22,41 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@database-1.cmpiqoitbket.us-east-1.rds.amazonaws.com" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@database-1.cmpiqoitbket.us-east-1.rds.amazonaws.com" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@database-1.cmpiqoitbket.us-east-1.rds.amazonaws.com" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="sakila: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@database-1.cmpiqoitbket.us-east-1.rds.amazonaws.com" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="sakila: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
     <select />
+  </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="2ef23d1d-491e-4c6c-8e38-01118798721e">
+        <node key="sakila" />
+      </node>
+    </checked>
+    <expanded>
+      <node key="2ef23d1d-491e-4c6c-8e38-01118798721e" />
+    </expanded>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,13 +79,19 @@
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="redshift&#10;mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="GrepConsole" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="HibernateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -74,6 +113,29 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.040632054" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="@database-1.cmpiqoitbket.us-east-1.rds.amazonaws.com: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="@database-1.cmpiqoitbket.us-east-1.rds.amazonaws.com: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@7418b981" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -86,7 +148,13 @@
       <updated>1602571906048</updated>
       <workItem from="1602571908136" duration="4828000" />
       <workItem from="1602578441099" duration="1573000" />
-      <workItem from="1602581959200" duration="6528000" />
+      <workItem from="1602581959200" duration="7317000" />
+      <workItem from="1602612844169" duration="1308000" />
+      <workItem from="1602661190416" duration="22293000" />
+      <workItem from="1602692759650" duration="62000" />
+      <workItem from="1602744713926" duration="23004000" />
+      <workItem from="1602833250623" duration="18020000" />
+      <workItem from="1603001262292" duration="645000" />
     </task>
     <task id="LOCAL-00001" summary="add .gitignore file˚">
       <created>1602573725898</created>
@@ -144,7 +212,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602586858401</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="finalize before closing the sample">
+      <created>1602600549585</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1602600549585</updated>
+    </task>
+    <task id="LOCAL-00010" summary="blank space to check the commit">
+      <created>1602600593827</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1602600593827</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,74 +242,115 @@
     <MESSAGE value="add tostring() method to Department class" />
     <MESSAGE value="add a close() statement to the session connection" />
     <MESSAGE value="blank space to test the commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="blank space to test the commit" />
+    <MESSAGE value="finalize before closing the sample" />
+    <MESSAGE value="blank space to check the commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="blank space to check the commit" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="486" y="127" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602582005962">
+    <state x="204" y="154" key="#SQL_Dialects" timestamp="1602613553276">
       <screen x="38" y="23" width="1402" height="877" />
     </state>
-    <state x="486" y="127" key="#com.intellij.execution.impl.EditConfigurationsDialog/38.23.1402.877@38.23.1402.877" timestamp="1602582005962" />
+    <state x="204" y="154" key="#SQL_Dialects/38.23.1402.877@38.23.1402.877" timestamp="1602613553276" />
+    <state x="460" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602673412902">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="460" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1602673412902" />
+    <state x="486" y="127" key="#com.intellij.execution.impl.EditConfigurationsDialog/38.23.1402.877@38.23.1402.877" timestamp="1602661349597" />
     <state x="639" y="169" key="#com.intellij.ide.util.MemberChooser" timestamp="1602598888792">
       <screen x="38" y="23" width="1402" height="877" />
     </state>
     <state x="639" y="169" key="#com.intellij.ide.util.MemberChooser/38.23.1402.877@38.23.1402.877" timestamp="1602598888792" />
-    <state x="396" y="23" key="CommitChangelistDialog2" timestamp="1602600549332">
+    <state x="954" y="90" key="#xdebugger.evaluate" timestamp="1602857119517">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="954" y="90" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1602857119517" />
+    <state x="396" y="23" key="CommitChangelistDialog2" timestamp="1602600593662">
       <screen x="38" y="23" width="1402" height="877" />
     </state>
-    <state x="396" y="23" key="CommitChangelistDialog2/38.23.1402.877@38.23.1402.877" timestamp="1602600549332" />
+    <state x="396" y="23" key="CommitChangelistDialog2/38.23.1402.877@38.23.1402.877" timestamp="1602600593662" />
+    <state width="250" height="195" key="DatabaseViewActions_Filter" timestamp="1602613619620">
+      <screen x="38" y="23" width="1402" height="877" />
+    </state>
+    <state width="250" height="195" key="DatabaseViewActions_Filter/38.23.1402.877@38.23.1402.877" timestamp="1602613619620" />
+    <state x="636" y="130" key="ExecutionTargetDialog" timestamp="1602663058944">
+      <screen x="38" y="23" width="1402" height="877" />
+    </state>
+    <state x="636" y="130" key="ExecutionTargetDialog/38.23.1402.877@38.23.1402.877" timestamp="1602663058944" />
     <state x="90" y="23" width="1350" height="877" key="GrepConsoleSettings" timestamp="1602579400308">
       <screen x="38" y="23" width="1402" height="877" />
     </state>
     <state x="90" y="23" width="1350" height="877" key="GrepConsoleSettings/38.23.1402.877@38.23.1402.877" timestamp="1602579400308" />
-    <state width="1029" height="214" key="GridCell.Tab.0.bottom" timestamp="1602600511674">
+    <state width="376" height="305" key="GridCell.Tab.0.bottom" timestamp="1603010205346">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="376" height="305" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603010205346" />
+    <state width="741" height="373" key="GridCell.Tab.0.bottom/38.23.1402.877@38.23.1402.877" timestamp="1602834402504" />
+    <state width="376" height="305" key="GridCell.Tab.0.center" timestamp="1603010205345">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="376" height="305" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603010205345" />
+    <state width="741" height="373" key="GridCell.Tab.0.center/38.23.1402.877@38.23.1402.877" timestamp="1602834402503" />
+    <state width="376" height="305" key="GridCell.Tab.0.left" timestamp="1603010205344">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="376" height="305" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603010205344" />
+    <state width="741" height="373" key="GridCell.Tab.0.left/38.23.1402.877@38.23.1402.877" timestamp="1602834402503" />
+    <state width="376" height="305" key="GridCell.Tab.0.right" timestamp="1603010205346">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="376" height="305" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603010205346" />
+    <state width="741" height="373" key="GridCell.Tab.0.right/38.23.1402.877@38.23.1402.877" timestamp="1602834402504" />
+    <state width="1029" height="269" key="GridCell.Tab.1.bottom" timestamp="1602606367526">
       <screen x="38" y="23" width="1402" height="877" />
     </state>
-    <state width="1029" height="214" key="GridCell.Tab.0.bottom/38.23.1402.877@38.23.1402.877" timestamp="1602600511674" />
-    <state width="1029" height="214" key="GridCell.Tab.0.center" timestamp="1602600511673">
+    <state width="1029" height="269" key="GridCell.Tab.1.bottom/38.23.1402.877@38.23.1402.877" timestamp="1602606367526" />
+    <state width="1029" height="269" key="GridCell.Tab.1.center" timestamp="1602606367526">
       <screen x="38" y="23" width="1402" height="877" />
     </state>
-    <state width="1029" height="214" key="GridCell.Tab.0.center/38.23.1402.877@38.23.1402.877" timestamp="1602600511673" />
-    <state width="1029" height="214" key="GridCell.Tab.0.left" timestamp="1602600511672">
+    <state width="1029" height="269" key="GridCell.Tab.1.center/38.23.1402.877@38.23.1402.877" timestamp="1602606367526" />
+    <state width="1029" height="269" key="GridCell.Tab.1.left" timestamp="1602606367526">
       <screen x="38" y="23" width="1402" height="877" />
     </state>
-    <state width="1029" height="214" key="GridCell.Tab.0.left/38.23.1402.877@38.23.1402.877" timestamp="1602600511672" />
-    <state width="1029" height="214" key="GridCell.Tab.0.right" timestamp="1602600511673">
+    <state width="1029" height="269" key="GridCell.Tab.1.left/38.23.1402.877@38.23.1402.877" timestamp="1602606367526" />
+    <state width="1029" height="269" key="GridCell.Tab.1.right" timestamp="1602606367526">
       <screen x="38" y="23" width="1402" height="877" />
     </state>
-    <state width="1029" height="214" key="GridCell.Tab.0.right/38.23.1402.877@38.23.1402.877" timestamp="1602600511673" />
-    <state width="1029" height="269" key="GridCell.Tab.1.bottom" timestamp="1602600379734">
-      <screen x="38" y="23" width="1402" height="877" />
-    </state>
-    <state width="1029" height="269" key="GridCell.Tab.1.bottom/38.23.1402.877@38.23.1402.877" timestamp="1602600379734" />
-    <state width="1029" height="269" key="GridCell.Tab.1.center" timestamp="1602600379733">
-      <screen x="38" y="23" width="1402" height="877" />
-    </state>
-    <state width="1029" height="269" key="GridCell.Tab.1.center/38.23.1402.877@38.23.1402.877" timestamp="1602600379733" />
-    <state width="1029" height="269" key="GridCell.Tab.1.left" timestamp="1602600379733">
-      <screen x="38" y="23" width="1402" height="877" />
-    </state>
-    <state width="1029" height="269" key="GridCell.Tab.1.left/38.23.1402.877@38.23.1402.877" timestamp="1602600379733" />
-    <state width="1029" height="269" key="GridCell.Tab.1.right" timestamp="1602600379733">
-      <screen x="38" y="23" width="1402" height="877" />
-    </state>
-    <state width="1029" height="269" key="GridCell.Tab.1.right/38.23.1402.877@38.23.1402.877" timestamp="1602600379733" />
+    <state width="1029" height="269" key="GridCell.Tab.1.right/38.23.1402.877@38.23.1402.877" timestamp="1602606367526" />
     <state x="407" y="123" key="Maven.ArtifactSearchDialog" timestamp="1602600051590">
       <screen x="38" y="23" width="1402" height="877" />
     </state>
     <state x="407" y="123" key="Maven.ArtifactSearchDialog/38.23.1402.877@38.23.1402.877" timestamp="1602600051590" />
-    <state x="390" y="43" key="SettingsEditor" timestamp="1602578762047">
+    <state x="362" y="21" width="997" height="797" key="SettingsEditor" timestamp="1603010264840">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="362" y="21" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1603010264840" />
+    <state x="390" y="43" width="997" height="797" key="SettingsEditor/38.23.1402.877@38.23.1402.877" timestamp="1602687216354" />
+    <state x="502" y="201" key="Vcs.Push.Dialog.v2" timestamp="1602600594424">
       <screen x="38" y="23" width="1402" height="877" />
     </state>
-    <state x="390" y="43" key="SettingsEditor/38.23.1402.877@38.23.1402.877" timestamp="1602578762047" />
-    <state x="502" y="201" key="Vcs.Push.Dialog.v2" timestamp="1602600550428">
+    <state x="502" y="201" key="Vcs.Push.Dialog.v2/38.23.1402.877@38.23.1402.877" timestamp="1602600594424" />
+    <state x="879" y="275" width="477" height="347" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1602768467500">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="879" y="275" width="477" height="347" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1440.900@0.0.1440.900" timestamp="1602768467500" />
+    <state x="609" y="204" key="com.intellij.database.run.ParametersPanel.Standalone" timestamp="1602673342011">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="609" y="204" key="com.intellij.database.run.ParametersPanel.Standalone/0.0.1440.900@0.0.1440.900" timestamp="1602673342011" />
+    <state x="631" y="222" key="com.intellij.database.run.ParametersPanel.Standalone/38.23.1402.877@38.23.1402.877" timestamp="1602664180972" />
+    <state x="953" y="196" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1602673478560">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="953" y="196" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1440.900@0.0.1440.900" timestamp="1602673478560" />
+    <state x="356" y="173" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1" timestamp="1602664190512">
       <screen x="38" y="23" width="1402" height="877" />
     </state>
-    <state x="502" y="201" key="Vcs.Push.Dialog.v2/38.23.1402.877@38.23.1402.877" timestamp="1602600550428" />
-    <state x="562" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1602581972682">
+    <state x="356" y="173" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1/38.23.1402.877@38.23.1402.877" timestamp="1602664190512" />
+    <state x="562" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1603001360042">
       <screen x="38" y="23" width="1402" height="877" />
     </state>
-    <state x="562" y="294" key="com.intellij.ide.util.TipDialog/38.23.1402.877@38.23.1402.877" timestamp="1602581972682" />
+    <state x="562" y="294" key="com.intellij.ide.util.TipDialog/38.23.1402.877@38.23.1402.877" timestamp="1603001360042" />
     <state x="684" y="380" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602574388474">
       <screen x="38" y="23" width="1402" height="877" />
     </state>
@@ -236,13 +359,15 @@
       <screen x="38" y="23" width="1402" height="877" />
     </state>
     <state x="194" y="74" key="new project wizard/38.23.1402.877@38.23.1402.877" timestamp="1602586982017" />
-    <state x="567" y="211" key="run.anything.popup" timestamp="1602595806752">
-      <screen x="38" y="23" width="1402" height="877" />
+    <state x="543" y="193" key="run.anything.popup" timestamp="1602836350806">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="567" y="211" key="run.anything.popup/38.23.1402.877@38.23.1402.877" timestamp="1602595806752" />
-    <state x="763" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1602598681983">
-      <screen x="38" y="23" width="1402" height="877" />
+    <state x="543" y="193" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1602836350806" />
+    <state x="567" y="211" key="run.anything.popup/38.23.1402.877@38.23.1402.877" timestamp="1602662289086" />
+    <state x="745" y="195" width="689" height="694" key="search.everywhere.popup" timestamp="1602843690509">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="745" y="195" width="689" height="694" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1602843690509" />
     <state x="763" y="213" width="670" height="676" key="search.everywhere.popup/38.23.1402.877@38.23.1402.877" timestamp="1602598681983" />
   </component>
 </project>

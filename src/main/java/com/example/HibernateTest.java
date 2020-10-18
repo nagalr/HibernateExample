@@ -21,7 +21,7 @@ public class HibernateTest {
 
         session.getTransaction().commit();
 
-        Query q = session.createQuery("From Employee ");
+        Query q = session.createQuery("From Employee "); // HQL syntax
 
         List<Employee> resultList = q.list();
         System.out.println("\nnum of employees: " + resultList.size() + "\n");
