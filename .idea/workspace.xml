@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f370e068-6f5d-4c8e-a80c-3dc9dbc3ab32" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +117,7 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.040632054" />
+          <option name="contentProportion" value="0.04931507" />
           <treeState>
             <expand>
               <path>
@@ -126,7 +127,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="@database-1.cmpiqoitbket.us-east-1.rds.amazonaws.com: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@7053e52c" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@160ea8cb" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -156,7 +157,12 @@
       <workItem from="1603001262292" duration="645000" />
       <workItem from="1603010344469" duration="751000" />
       <workItem from="1603014836126" duration="996000" />
-      <workItem from="1603023464687" duration="641000" />
+      <workItem from="1603023464687" duration="1674000" />
+      <workItem from="1603029881873" duration="3893000" />
+      <workItem from="1603112813284" duration="4713000" />
+      <workItem from="1603184110042" duration="274000" />
+      <workItem from="1603185286413" duration="329000" />
+      <workItem from="1603185904695" duration="5035000" />
     </task>
     <task id="LOCAL-00001" summary="add .gitignore file˚">
       <created>1602573725898</created>
@@ -235,7 +241,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603014974191</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update .gitignore">
+      <created>1603024524135</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1603024524135</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update .gitignore">
+      <created>1603024583306</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1603024583306</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +287,8 @@
     <MESSAGE value="finalize before closing the sample" />
     <MESSAGE value="blank space to check the commit" />
     <MESSAGE value="add workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="add workspace.xml" />
+    <MESSAGE value="update .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="update .gitignore" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -275,11 +296,11 @@
       <screen x="38" y="23" width="1402" height="877" />
     </state>
     <state x="204" y="154" key="#SQL_Dialects/38.23.1402.877@38.23.1402.877" timestamp="1602613553276" />
-    <state x="460" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602673412902">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="486" y="127" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603186007011">
+      <screen x="38" y="23" width="1402" height="877" />
     </state>
     <state x="460" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1602673412902" />
-    <state x="486" y="127" key="#com.intellij.execution.impl.EditConfigurationsDialog/38.23.1402.877@38.23.1402.877" timestamp="1602661349597" />
+    <state x="486" y="127" key="#com.intellij.execution.impl.EditConfigurationsDialog/38.23.1402.877@38.23.1402.877" timestamp="1603186007011" />
     <state x="639" y="169" key="#com.intellij.ide.util.MemberChooser" timestamp="1602598888792">
       <screen x="38" y="23" width="1402" height="877" />
     </state>
@@ -288,10 +309,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="954" y="90" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1602857119517" />
-    <state x="368" y="0" key="CommitChangelistDialog2" timestamp="1603024523914">
+    <state x="368" y="0" key="CommitChangelistDialog2" timestamp="1603024583114">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="368" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1603024523914" />
+    <state x="368" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1603024583114" />
     <state x="396" y="23" key="CommitChangelistDialog2/38.23.1402.877@38.23.1402.877" timestamp="1603014973989" />
     <state width="250" height="195" key="DatabaseViewActions_Filter" timestamp="1602613619620">
       <screen x="38" y="23" width="1402" height="877" />
@@ -305,26 +326,26 @@
       <screen x="38" y="23" width="1402" height="877" />
     </state>
     <state x="90" y="23" width="1350" height="877" key="GrepConsoleSettings/38.23.1402.877@38.23.1402.877" timestamp="1602579400308" />
-    <state width="393" height="305" key="GridCell.Tab.0.bottom" timestamp="1603024387742">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="706" height="286" key="GridCell.Tab.0.bottom" timestamp="1603186101764">
+      <screen x="38" y="23" width="1402" height="877" />
     </state>
-    <state width="393" height="305" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603024387742" />
-    <state width="741" height="373" key="GridCell.Tab.0.bottom/38.23.1402.877@38.23.1402.877" timestamp="1602834402504" />
-    <state width="393" height="305" key="GridCell.Tab.0.center" timestamp="1603024387741">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="417" height="286" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603114235111" />
+    <state width="706" height="286" key="GridCell.Tab.0.bottom/38.23.1402.877@38.23.1402.877" timestamp="1603186101764" />
+    <state width="706" height="286" key="GridCell.Tab.0.center" timestamp="1603186101763">
+      <screen x="38" y="23" width="1402" height="877" />
     </state>
-    <state width="393" height="305" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603024387741" />
-    <state width="741" height="373" key="GridCell.Tab.0.center/38.23.1402.877@38.23.1402.877" timestamp="1602834402503" />
-    <state width="393" height="305" key="GridCell.Tab.0.left" timestamp="1603024387740">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="417" height="286" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603114235110" />
+    <state width="706" height="286" key="GridCell.Tab.0.center/38.23.1402.877@38.23.1402.877" timestamp="1603186101763" />
+    <state width="706" height="286" key="GridCell.Tab.0.left" timestamp="1603186101763">
+      <screen x="38" y="23" width="1402" height="877" />
     </state>
-    <state width="393" height="305" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603024387740" />
-    <state width="741" height="373" key="GridCell.Tab.0.left/38.23.1402.877@38.23.1402.877" timestamp="1602834402503" />
-    <state width="393" height="305" key="GridCell.Tab.0.right" timestamp="1603024387742">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="417" height="286" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603114235110" />
+    <state width="706" height="286" key="GridCell.Tab.0.left/38.23.1402.877@38.23.1402.877" timestamp="1603186101763" />
+    <state width="706" height="286" key="GridCell.Tab.0.right" timestamp="1603186101764">
+      <screen x="38" y="23" width="1402" height="877" />
     </state>
-    <state width="393" height="305" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603024387742" />
-    <state width="741" height="373" key="GridCell.Tab.0.right/38.23.1402.877@38.23.1402.877" timestamp="1602834402504" />
+    <state width="417" height="286" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603114235111" />
+    <state width="706" height="286" key="GridCell.Tab.0.right/38.23.1402.877@38.23.1402.877" timestamp="1603186101764" />
     <state width="1029" height="269" key="GridCell.Tab.1.bottom" timestamp="1602606367526">
       <screen x="38" y="23" width="1402" height="877" />
     </state>
@@ -372,10 +393,10 @@
       <screen x="38" y="23" width="1402" height="877" />
     </state>
     <state x="356" y="173" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1/38.23.1402.877@38.23.1402.877" timestamp="1602664190512" />
-    <state x="562" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1603023488784">
+    <state x="562" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1603185917540">
       <screen x="38" y="23" width="1402" height="877" />
     </state>
-    <state x="562" y="294" key="com.intellij.ide.util.TipDialog/38.23.1402.877@38.23.1402.877" timestamp="1603023488784" />
+    <state x="562" y="294" key="com.intellij.ide.util.TipDialog/38.23.1402.877@38.23.1402.877" timestamp="1603185917540" />
     <state x="684" y="380" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602574388474">
       <screen x="38" y="23" width="1402" height="877" />
     </state>
