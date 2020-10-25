@@ -33,6 +33,9 @@ public class HibernateTest {
 
         System.out.println("\n************************* just before the Department query *******************\n");
 
+        Department department2 = new Department("C++");
+        session.save(department2);
+
         Query q2 = session.createQuery("From Department ");
 
         List<Department> resultList2 = q2.list();
@@ -53,6 +56,7 @@ public class HibernateTest {
             System.out.println("\nDepartment name: " + st);
         }
 
+        // close the session
         session.close();
     }
 }

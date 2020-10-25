@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f370e068-6f5d-4c8e-a80c-3dc9dbc3ab32" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/HibernateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/HibernateTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,7 +183,7 @@
       <workItem from="1603444190935" duration="3195000" />
       <workItem from="1603450643742" duration="274000" />
       <workItem from="1603451156392" duration="13478000" />
-      <workItem from="1603615750851" duration="17728000" />
+      <workItem from="1603615750851" duration="18042000" />
     </task>
     <task id="LOCAL-00001" summary="add .gitignore file˚">
       <created>1602573725898</created>
@@ -291,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603645602352</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Add another simple query to the Department Objects">
+      <created>1603646157146</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1603646157146</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +332,8 @@
     <MESSAGE value="update .gitignore" />
     <MESSAGE value="change the server to aws-rds-mysql-server, and test the new connection" />
     <MESSAGE value="Add traverse over the Department Objects" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add traverse over the Department Objects" />
+    <MESSAGE value="Add another simple query to the Department Objects" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add another simple query to the Department Objects" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -347,11 +354,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="954" y="90" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1602857119517" />
-    <state x="396" y="23" key="CommitChangelistDialog2" timestamp="1603645602135">
+    <state x="396" y="23" key="CommitChangelistDialog2" timestamp="1603646156987">
       <screen x="38" y="23" width="1402" height="877" />
     </state>
     <state x="368" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1603024583114" />
-    <state x="396" y="23" key="CommitChangelistDialog2/38.23.1402.877@38.23.1402.877" timestamp="1603645602135" />
+    <state x="396" y="23" key="CommitChangelistDialog2/38.23.1402.877@38.23.1402.877" timestamp="1603646156987" />
     <state width="250" height="195" key="DatabaseViewActions_Filter" timestamp="1602613619620">
       <screen x="38" y="23" width="1402" height="877" />
     </state>
@@ -364,26 +371,26 @@
       <screen x="38" y="23" width="1402" height="877" />
     </state>
     <state x="90" y="23" width="1350" height="877" key="GrepConsoleSettings/38.23.1402.877@38.23.1402.877" timestamp="1602579400308" />
-    <state width="802" height="214" key="GridCell.Tab.0.bottom" timestamp="1603646098861">
+    <state width="802" height="214" key="GridCell.Tab.0.bottom" timestamp="1603646213675">
       <screen x="38" y="23" width="1402" height="877" />
     </state>
     <state width="187" height="227" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603626161574" />
-    <state width="802" height="214" key="GridCell.Tab.0.bottom/38.23.1402.877@38.23.1402.877" timestamp="1603646098861" />
-    <state width="802" height="214" key="GridCell.Tab.0.center" timestamp="1603646098861">
+    <state width="802" height="214" key="GridCell.Tab.0.bottom/38.23.1402.877@38.23.1402.877" timestamp="1603646213675" />
+    <state width="802" height="214" key="GridCell.Tab.0.center" timestamp="1603646213674">
       <screen x="38" y="23" width="1402" height="877" />
     </state>
     <state width="187" height="227" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603626161573" />
-    <state width="802" height="214" key="GridCell.Tab.0.center/38.23.1402.877@38.23.1402.877" timestamp="1603646098861" />
-    <state width="802" height="214" key="GridCell.Tab.0.left" timestamp="1603646098860">
+    <state width="802" height="214" key="GridCell.Tab.0.center/38.23.1402.877@38.23.1402.877" timestamp="1603646213674" />
+    <state width="802" height="214" key="GridCell.Tab.0.left" timestamp="1603646213674">
       <screen x="38" y="23" width="1402" height="877" />
     </state>
     <state width="187" height="227" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603626161572" />
-    <state width="802" height="214" key="GridCell.Tab.0.left/38.23.1402.877@38.23.1402.877" timestamp="1603646098860" />
-    <state width="802" height="214" key="GridCell.Tab.0.right" timestamp="1603646098861">
+    <state width="802" height="214" key="GridCell.Tab.0.left/38.23.1402.877@38.23.1402.877" timestamp="1603646213674" />
+    <state width="802" height="214" key="GridCell.Tab.0.right" timestamp="1603646213675">
       <screen x="38" y="23" width="1402" height="877" />
     </state>
     <state width="187" height="227" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603626161573" />
-    <state width="802" height="214" key="GridCell.Tab.0.right/38.23.1402.877@38.23.1402.877" timestamp="1603646098861" />
+    <state width="802" height="214" key="GridCell.Tab.0.right/38.23.1402.877@38.23.1402.877" timestamp="1603646213675" />
     <state width="802" height="269" key="GridCell.Tab.1.bottom" timestamp="1603642528148">
       <screen x="38" y="23" width="1402" height="877" />
     </state>
@@ -409,11 +416,11 @@
     </state>
     <state x="362" y="21" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1603010264840" />
     <state x="390" y="43" width="997" height="797" key="SettingsEditor/38.23.1402.877@38.23.1402.877" timestamp="1602687216354" />
-    <state x="502" y="201" key="Vcs.Push.Dialog.v2" timestamp="1603645603446">
+    <state x="502" y="201" key="Vcs.Push.Dialog.v2" timestamp="1603646157822">
       <screen x="38" y="23" width="1402" height="877" />
     </state>
     <state x="477" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1603024526106" />
-    <state x="502" y="201" key="Vcs.Push.Dialog.v2/38.23.1402.877@38.23.1402.877" timestamp="1603645603446" />
+    <state x="502" y="201" key="Vcs.Push.Dialog.v2/38.23.1402.877@38.23.1402.877" timestamp="1603646157822" />
     <state x="879" y="275" width="477" height="347" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1602768467500">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
