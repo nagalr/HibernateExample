@@ -9,8 +9,6 @@ public class HibernateTest {
 
     public static void main(String[] args) {
 
-        System.out.println("************************* inside main *******************");
-
         Session session = HibernateUtil.getSessionFactory().openSession();
 
         session.beginTransaction();
@@ -23,6 +21,8 @@ public class HibernateTest {
 
         session.getTransaction().commit();
 
+        System.out.println("************************* just before the Employee query *******************");
+
         Query q = session.createQuery("From Employee "); // HQL syntax
 
         List<Employee> resultList = q.list();
@@ -31,7 +31,18 @@ public class HibernateTest {
             System.out.println("next employee: " + next);
         }
 
-        session.close();
+        System.out.println("\n************************* just before the Department query *******************\n");
 
+        Query q2 = session.createQuery("From Department ");
+
+        List<Department> resultList2 = q2.list();
+
+        System.out.println("\nnum of Departments: " + resultList2.size() + "\n");
+
+        for (Department dept : resultList2) {
+            System.out.println("next Department: " + dept);
+        }
+
+        session.close();
     }
 }
