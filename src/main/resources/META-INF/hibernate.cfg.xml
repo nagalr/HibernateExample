@@ -5,10 +5,10 @@
 <hibernate-configuration>
     <session-factory>
 
-        <property name="connection.url">jdbc:mysql://127.0.0.1:8889/ecomm</property>
+        <property name="connection.url">jdbc:mysql://database-1.cmpiqoitbket.us-east-1.rds.amazonaws.com:3306/sakila</property>
         <property name="connection.username">root</property>
-        <property name="connection.password">root</property>
-        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.password">K=1~5|K;w|9TqbY8]4W</property>
+        <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
         <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
 
         <property name="show_sql">true</property>

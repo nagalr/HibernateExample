@@ -9,6 +9,8 @@ public class HibernateTest {
 
     public static void main(String[] args) {
 
+        System.out.println("************************* inside main *******************");
+
         Session session = HibernateUtil.getSessionFactory().openSession();
 
         session.beginTransaction();
