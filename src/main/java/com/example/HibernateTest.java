@@ -43,6 +43,16 @@ public class HibernateTest {
             System.out.println("next Department: " + dept);
         }
 
+        System.out.println("\n************************ just before the Department specific query **************\n");
+
+        Query q3 = session.createQuery("select name from Department ");
+
+        List<String> resultList3 = q3.list();
+
+        for (String st : resultList3) {
+            System.out.println("\nDepartment name: " + st);
+        }
+
         session.close();
     }
 }
